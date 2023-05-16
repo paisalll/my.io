@@ -24,7 +24,7 @@ const Navbar = () => {
                             <motion.a whileHover={{scale: 1.5}} href="#projects" className="block py-4 px-5 w-24 rounded font-bold text-base ">Projects</motion.a>
                         </li>
                         <li>
-                            <motion.a whileHover={{scale: 1.5}} href="#stacks" className="block py-4 px-5 w-24 rounded font-bold text-base ">Stacks</motion.a>
+                            <motion.a whileHover={{scale: 1.5}} href="#experience" className="block py-4 px-5 w-24 rounded font-bold text-base ">Experience</motion.a>
                         </li>
                         <li>
                             <motion.a whileHover={{scale: 1.5}} href="#contacts" className="block py-4 px-5 w-24 rounded font-bold text-base ">Contact</motion.a>
