@@ -22,7 +22,7 @@ const About = () => {
                 className="bg-gradient-to-b from-main to-[#A178B9] text-transparent bg-clip-text p-4">
                     <motion.p 
                     variants={FADE_DOWN_ANIMATION_VARIANTS}
-                    className='font-extrabold text-[72px] leading-loose tracking-widest'>
+                    className='font-extrabold text-[50px] leading-loose tracking-widest'>
                     ABOUT ME
                     </motion.p> 
             <div className="w-60 border border-white">

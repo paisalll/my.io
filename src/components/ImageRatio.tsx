@@ -8,17 +8,19 @@ interface AspectRatioProps {
     src: any
     src2?: any
     size?: string
+    handleOpen: React.MouseEventHandler
 }
 
-const AspectRatio: FC<AspectRatioProps> = ({name, src, src2, size}) => {
+const AspectRatio: FC<AspectRatioProps> = ({name, src, src2, size, handleOpen}) => {
     return (
         <Fragment>
         <AspectRatioPrimitive.Root
             ratio={16 / 9}
-            className={`group relative h-full ${ size ? size : 'w-full'} overflow-hidden rounded-lg shadow-md`}
+            className={`group relative h-full ${ size ? size : 'w-full'} overflow-hidden rounded-lg shadow-md cursor-pointer`}
+            onClick={handleOpen}
         >
             <div className="absolute inset-0 z-10 flex items-center justify-center">
-            <h3 className="select-none bg-gradient-to-b from-main to-[#A178B9] bg-clip-text text-3xl font-black uppercase text-transparent duration-300 ease-in-out group-hover:opacity-0 sm:text-4xl">
+            <h3 className="select-none bg-gradient-to-b from-main to-[#A178B9] bg-clip-text text-3xl font-black text-transparent duration-300 ease-in-out group-hover:opacity-0 sm:text-4xl">
                 {name}
             </h3>
             </div>
