@@ -76,7 +76,7 @@ const Experience = () => {
                             className='mx-auto'
                             width={180}/>
                             <p className='text-sm text-justify'>
-                                I have had one year of experience working as a freelance support admin, my task Creating daily, weekly, and even monthly tasks to be completed by the team and I have also created user interfaces for a company's website using Laravel, HTML, and CSS. from August 2021 to September 2022.
+                                I have had one year of experience working as a freelance support admin, my task Creating daily, weekly, and even monthly tasks to be completed by the team and I have also created user interfaces for a company&apos;s website using Laravel, HTML, and CSS. from August 2021 to September 2022.
                             </p>
                         </motion.div>
                         <motion.div className='flex flex-col space-y-5 text-white justify-center'>
@@ -86,7 +86,7 @@ const Experience = () => {
                             className='mx-auto'
                             width={180}/>
                             <p className='text-sm text-justify'>
-                            I interned for 3 months as a network operation center, i'm monitoring the Palapa Ring Tengah Network from November, 2019 - February, 2020
+                            I interned for 3 months as a network operation center, i&apos;m monitoring the Palapa Ring Tengah Network from November, 2019 - February, 2020
                             </p>
                         </motion.div>
                     </motion.div>

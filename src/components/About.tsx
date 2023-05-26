@@ -10,18 +10,14 @@ import gam5 from "../../public/react.svg";
 import gam6 from "../../public/Frame.png";
 import gam7 from "../../public/original.png";
 
-export const FADE_DOWN_ANIMATION_VARIANTS = {
-    hidden: { opacity: 0, y: -10 },
-    show: { opacity: 1, y: 0, transition: { type: "spring" } },
-};
+
 
 const About = () => {
     return (
         <div className="flex flex-col relative w-full h-full mt-24 px-2">
             <motion.div
                 className="bg-gradient-to-b from-main to-[#A178B9] text-transparent bg-clip-text p-4">
-                    <motion.p 
-                    variants={FADE_DOWN_ANIMATION_VARIANTS}
+                    <motion.p
                     className='font-extrabold text-[50px] leading-loose tracking-widest'>
                     ABOUT ME
                     </motion.p> 
@@ -30,7 +26,7 @@ const About = () => {
             </div>
             </motion.div>
             <motion.div className=''>
-                <motion.p
+                <motion.div
                 className='mt-5 mx-auto p-2 hover:cursor-pointer text-[18px] text-white'>
                 Hello, i am Faizal. I am very interested in the world of programming, especially in becoming a frontend
                 engineer.
@@ -72,7 +68,7 @@ const About = () => {
                 a company where I can grow 
                 professionally.
                 </p>
-                </motion.p>
+                </motion.div>
                 <Image
                 className='absolute top-48 rigth-0 ml-[900px]'
                 src={gambar}
@@ -83,8 +79,7 @@ const About = () => {
             <motion.div className='flex flex-col'>
                 <motion.div
                     className="bg-gradient-to-b from-main to-[#A178B9] text-transparent bg-clip-text p-4">
-                        <motion.p 
-                        variants={FADE_DOWN_ANIMATION_VARIANTS}
+                        <motion.p
                         className='font-extrabold text-[32px] leading-loose tracking-widest'>
                         Technology Stack
                         </motion.p> 

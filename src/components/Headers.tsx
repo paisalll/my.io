@@ -2,6 +2,8 @@ import { animate, motion } from 'framer-motion'
 import React from 'react'
 import Image from 'next/image'
 import  gambar  from "../../public/headers.png";
+import sirkel from "../../public/Group.svg";
+import sirkel2 from "../../public/Group (2).svg";
 
 export const FADE_DOWN_ANIMATION_VARIANTS = {
     hidden: { opacity: 0, y: -10 },
@@ -52,12 +54,11 @@ const Headers = () => {
                     </motion.p> 
                 </motion.div>
                 <Image
-                className='h-96 mt-10'
+                className='h-96 mt-10 z-50'
                 src={gambar}
                 alt='Headers'
                 />
             </motion.div>
-            
         </motion.div>
     )
 }

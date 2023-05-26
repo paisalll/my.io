@@ -53,7 +53,7 @@ const Contact = () => {
             <div className="grid grid-cols-2 mx-20 gap-x-5">
                 <div className="flex flex-col">
                     <p className='text-base font-semibold text-main text-center'>
-                        I'm still learning about programing but if you need me, i will do my best with 1000% my ability for my growth
+                        I&apos;m still learning about programing but if you need me, i will do my best with 1000% my ability for my growth
                     </p>
                     <p className='text-sm font-normal text-white text-center mt-5'>
                         To find me you can fill the form or find me in...
