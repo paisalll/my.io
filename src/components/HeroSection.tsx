@@ -96,7 +96,7 @@ export default function HeroSection() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 animate-bounce">
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 animate-bounce">
           <span className="text-xs text-slate-600 font-outfit">Scroll</span>
           <div className="w-0.5 h-8 bg-gradient-to-b from-slate-600 to-transparent" />
         </div>
