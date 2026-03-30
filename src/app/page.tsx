@@ -1,18 +1,23 @@
-'use client'
-
-import Layout from '@/components/Layout'
-import Navbar from '@/components/Navbar'
-import Headers from '@/components/Headers'
-import Image from 'next/image'
-import { motion, useScroll } from 'framer-motion'
-import '../styles/globals.css'
-import Carousel from '@/components/Carousel'
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import TechStack from "@/components/TechStack";
+import ProjectsSection from "@/components/ProjectsSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
-      <Layout>
-        <Navbar/>
-          <Carousel/>
-      </Layout>
-  )
+    <main className="grain">
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <TechStack />
+      <ProjectsSection />
+      <ExperienceSection />
+      <TestimonialsSection />
+      <ContactSection />
+    </main>
+  );
 }
