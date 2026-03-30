@@ -22,7 +22,7 @@ export default function TestimonialsSection() {
             >
               {/* Quote icon */}
               <div className="text-blue-500/40 text-4xl font-serif leading-none mb-4">
-                "
+                &quot;
               </div>
 
               <p className="text-slate-400 text-sm leading-relaxed font-outfit flex-1 mb-6">
